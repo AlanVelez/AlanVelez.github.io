@@ -339,7 +339,11 @@ input[type=submit]:hover{
     .redes{
         align-items: center;
     }
+    .formulario{
+        padding: 3rem 0;
+    }
     .formulario-contacto{
         width: 100%;
+        padding: 1rem;
     }
 }
