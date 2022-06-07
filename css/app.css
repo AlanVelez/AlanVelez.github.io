@@ -1,0 +1,345 @@
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+/* Globales */
+body{
+    font-family: 'Inter', sans-serif;
+    font-size: 1.6rem;
+    line-height: 2;
+    color: #313237;
+}
+a{text-decoration: none; color: #838c8d;}
+img{max-width: 100%;}
+p{font-size: 1.6rem;}
+h2{
+    font-size: 4rem;
+    margin-top: 10rem;
+    text-align: center;
+}
+ion-icon{font-size: 4rem;}
+.icon-social{
+    width: 2rem;
+    margin: 1rem;
+}
+/* utilidades */
+.padding-3{padding: 3rem;}
+.grid-columns-2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.color-4ea5ff{color: #4EA5FF;}
+.transition-3ms{transition: all .3s ease-out;}
+.text-center{text-align: center;}
+.flex-columns-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+.margin-0{
+    margin: 0;
+}
+/* Header */
+.inicio-fondo{
+    background-color: #207BFF;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Menu principal */
+.logoInicio{width: 5rem;}
+.menu-principal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.menu-principal a{
+    color: #fff;
+}
+.menu-principal a:nth-child(1){
+    font-weight: bold;
+}
+/* main */
+.texto-principal p{
+    color: #fff;
+    font-size: 1.8rem;
+    border-top: 1px solid #fff;
+    padding-top: 1rem;
+}
+.texto-principal h1{
+    color: #fff;
+    font-size: 8rem;
+    margin: 2rem;
+}
+/* Sobre mi */
+.encabezado-sobre-mi h2{
+    line-height: normal;
+    color: #313237;
+}
+.informacion-sobre-mi{
+    padding: 0 4rem;
+}
+.texto-sobre-mi{
+    padding: 4rem 4rem 6rem 0;
+    display: flex;
+    flex-direction: column;
+}
+.texto-sobre-mi > p:nth-child(2){
+    text-align: justify;
+}
+.experiencia{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.experiencia p{
+    padding: 1rem;
+}
+.numeros{
+    font-weight: bold;
+    font-size: 3rem;
+}
+.boton{
+    padding: 1rem;
+    margin: 3rem 3rem 0 3rem;
+    font-size: 1.6rem;
+    font-weight: bold;
+    border-radius: .5rem;
+    background-color: #207BFF;
+    color: #fff;
+    box-shadow: 4px 10px 14px 0px rgba(110,110,110,0.3);
+}
+.boton:hover{
+    background-color: #1e8bff;
+    box-shadow: 4px 10px 14px 0px rgba(110,110,110,0.6);
+}
+.imagen-sobre-mi{
+    margin: auto;
+}
+.foto-alan{
+    width: 30rem;
+    border-radius: .8rem;
+}
+/* seccion proyectos */
+.proyectos{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 4rem;
+    padding: 3rem;
+    margin: 4rem;
+}
+.proyecto{
+    border-radius: 0.8rem;
+    box-shadow: 0 .1rem 1.6rem rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: all .3s ease-out;
+}
+.proyecto:hover{
+    box-shadow: 0 4.3rem 4.6rem -.8rem rgba(185, 185, 185, 0.8);
+}
+.proyecto img{
+    height: 20rem;
+    width: 100%;
+    object-fit: cover;
+}
+.informacion-proyecto{
+    color: #838c8d;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+.informacion-proyecto h3{
+    color: #313237;
+    font-weight: bold;
+    font-size: 2.4rem;
+}
+/* seccion habilidades */
+.habilidades{
+    justify-items: center;
+    padding: 6rem 3rem;
+    background-color: #f5f5f5;
+}
+.habilidades-intro{
+    padding: 0 3rem;
+}
+.habilidades-intro h2{
+    margin: 0;
+    color: #313237;
+}
+.habilidades-lista{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin: 0 2rem;
+}
+.habilidad{
+    border-radius: 0.8rem;
+    background-color: #fff;
+    color: #313237;
+    font-weight: 600;
+    padding: 1.6rem;
+    width: 15rem;
+    height: 15rem;
+    box-shadow: 4px 10px 14px 0px rgba(110,110,110,0.3);
+}
+.habilidad ion-icon{
+    color: #207BFF;
+}
+.habilidad:hover ion-icon{
+    color: #fff;
+}
+.habilidad:hover{
+    background-color: #207BFF;
+    cursor: pointer;
+    color: #fff;
+    box-shadow: 4px 10px 14px 0px rgba(110,110,110,0.8);
+}
+/* footer */
+footer{
+    margin-top: 4rem;
+}
+.menu-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+}
+footer p{
+    color: #838c8d;
+}
+footer a:hover{
+    text-decoration: underline;
+}
+footer h3{
+    color: #207BFF;
+}
+.correo{
+    font-style: italic;
+}
+hr{
+    width: 90%;
+    color: #1e8bff;
+}
+.seccion-logo{
+    display: flex;
+    align-items: center;
+    
+}
+.seccion-logo img{
+    width: 6rem;
+    margin: 1rem;
+}
+.seccion-contacto,
+.servicios,
+.redes{
+    display: flex;
+    flex-direction: column;
+}
+/* formulario contacto */
+.formulario h2{
+    margin-top: 2rem;
+}
+.formulario-contacto{
+    padding: 5rem;
+    border-radius: 1rem;
+    display: grid;
+    width: 80%;
+    margin: 0 auto;
+    box-shadow: 0 .1rem 1.6rem rgba(135, 135, 135, 0.3);
+
+}
+.campo{
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+}
+label{
+    font-weight: bold;
+}
+.campo input,
+textarea{
+    border: 2px solid #207BFF;
+    border-radius: .5rem;
+    color: #313237;
+    padding: 1rem;
+}
+input[type=submit]{
+    color: #fff;
+    background-color: #207BFF;
+    padding: 1rem 6rem;
+    border-radius: .4rem;
+    border: none;
+    margin: 4rem auto 0 auto;
+    font-weight: 600;
+}
+input[type=submit]:hover{
+    background-color: #1e8bff;
+    cursor: pointer;
+    
+}
+@media only screen and (max-width: 900px) {
+    .inicio-fondo{padding: 2rem .5rem;}
+    .informacion-sobre-mi,
+    .menu{
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: none;
+    }
+    .logoInicio,
+    .habilidades-lista{
+        grid-template-rows: repeat(3,1fr);
+        grid-template-columns: repeat(2,1fr);
+        margin: 0 auto;
+    }
+    .menu-principal{flex-direction: column;}
+    .menu-principal a{margin: 0.5rem;}
+    .texto-principal,
+    .informacion-sobre-mi{
+        padding: 0;
+    }
+    .texto-principal h1{
+        margin: 6rem 0;
+        font-size: 4rem;
+        
+    }
+    .redes-sociales{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .experiencia p,
+    .texto-sobre-mi{
+        text-align: center;
+    }
+    .texto-sobre-mi{padding: 1rem;}
+    .habilidades{
+        grid-template-columns: none;
+        grid-template-rows: 1fr;
+    }
+    .habilidades{gap: 2rem;}
+    .proyectos{
+        grid-template-rows: repeat(3,1fr);
+        grid-template-columns: none;
+        margin: 0;
+    }
+    .informacion-proyecto{
+        text-align: center;
+    }
+    .menu-footer{
+        flex-direction: column;
+    }
+    .seccion-contacto,
+    .servicios,
+    .redes{
+        align-items: center;
+    }
+    .formulario-contacto{
+        width: 100%;
+    }
+}

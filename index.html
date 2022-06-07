@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="shortcut icon" href="./img/iconAlan.svg" type="image/x-icon">
+
+    <!-- Fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet"> 
+
+    <!-- Archivos css -->
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/app.css">
+    
+    <title>Alan Velez</title>
+</head>
+<body>       
+    <div class="contenedor">
+        <div class="inicio-fondo padding-3">
+            <header class="grid-columns-2 menu">
+                <img src="./img/logoAlan.svg" alt="Logo Alan Velez" class="logoInicio">
+                <nav class="menu-principal">
+                    <a href="index.html">Inicio</a>
+                    <a href="#seccion-sobre-mi">Sobre mi</a>
+                    <a href="https://github.com/AlanVelez">Trabajo</a>
+                    <a href="contacto.html">Contacto</a>
+                </nav>
+            </header>
+            <section class="mnsj-bienvenida padding-3 flex-columns-center">
+                <div class="texto-principal">
+                    <h1 class="text-center">Bienvenido, <br> soy Alan Velez</h1>
+                    <p class="text-center">Desarrollador de software/web</p>
+                </div>
+            </section>
+            <div class="redes-sociales">
+                <a href="https://github.com/AlanVelez" target="_blank">
+                    <img class="icon-social" src="./img/github-brands.svg" alt="Github">
+                </a>
+                <a href="https://www.facebook.com/elalanvelez/" target="_blank">
+                    <img class="icon-social" src="./img/facebook-brands.svg" alt="Facebook">
+                </a>
+                <a href="https://www.instagram.com/elalanvelez/" target="_blank">
+                    <img class="icon-social" src="./img/instagram-brands.svg" alt="Instagram">
+                </a>
+                <a href="https://www.linkedin.com/in/alan-fabian-oliva-velez-738907234/" target="_blank">
+                    <img class="icon-social" src="./img/linkedin-in-brands.svg" alt="Linkedin">
+                </a>
+            </div>
+        </div>
+
+        <main id="seccion-sobre-mi">
+            <div class="encabezado-sobre-mi">
+                <h2>Sobre mi</h2>
+            </div> 
+            <div class="informacion-sobre-mi grid-columns-2">
+                <div class="imagen-sobre-mi">
+                    <img class="foto-alan" src="./img/perfil.jpg" alt="Alan Velez">
+                </div>
+                <div class="texto-sobre-mi">
+                    <p>Soy Alan Oliva Velez desarrollador de software y web.</p>
+                    <p>Tengo 19 años y vivo en Monterrey México, me encanta la programación y aprender cosas sobre tecnología. <br> Actualmente curso la universidad y estoy estudiando la carrera de ingeniería en tecnologías de la información con acentuación en desarrollo de software, me gustaría mucho trabajar en tu proyecto y ayudarte en tu idea para que tengas éxito.</p>
+                    <div class="experiencia text-center">
+                        <p><span class="numeros">+1</span><br>Años de experiencia</p>
+                        <p><span class="numeros">+2</span><br>Proyectos terminados</p>
+                        <p><span class="numeros">+2</span><br>Trabajos de programacion</p>
+                    </div>
+                    <a href="#" class="boton transition-3ms text-center">Descargar CV</a>
+                </div>
+            </div>
+        </main>
+        <section class="seccion-proyectos padding-3">
+            <div class="titulo-proyectos">
+                <p class="text-center">Algunos de los proyectos que he desarrollado:</p>
+            </div>
+            <div class="proyectos">
+                <a href="https://alanvelez.000webhostapp.com/serendipia/index.html#" target="_blank" class="proyecto">
+                    <img src="./img/serendipia.png" alt="Logo Serendipia">
+                    <div class="informacion-proyecto">
+                        <h3>Serendipia</h3>
+                        <p class="margin-0">Html, Css y Js</p>
+                        <p>Serendipia es un negocio dedicado a prestar servicios espirituales y productos que ayudan a la relajación de la mente y el cuerpo.</p>
+                    </div> <!--fin-informacion-proyecto-->
+                </a> <!-- fin-proyecto -->
+                <a href="https://alanvelez.000webhostapp.com/" target="_blank" class="proyecto">
+                    <img src="./img/ProfilePage.png" alt="">
+                    <div class="informacion-proyecto">
+                        <h3>Profile page</h3>
+                        <p class="margin-0">Html, Css y Js</p>
+                        <p>Página web desarrollada como proyecto de la universidad es una web de presentación del alumno.</p>
+                    </div> <!--fin-informacion-proyecto-->
+                </a> <!-- fin-proyecto -->
+                <a href="https://github.com/AlanVelez/WPPadlock" target="_blank" class="proyecto">
+                    <img src="./img/Padlock.png" alt="">
+                    <div class="informacion-proyecto">
+                        <h3>Padlock</h3>
+                        <p class="margin-0">C#</p>
+                        <p>Proyecto de clase sobre programación, la temática es sobre seguridad informática, incluye un generador de contraseñas.</p>
+                    </div> <!--fin-informacion-proyecto-->
+                </a> <!-- fin-proyecto -->
+            </div><!--fin-seccion-proyectos-->
+        </section>
+        <section class="habilidades grid-columns-2">
+            <div class="habilidades-intro text-center flex-columns-center">
+                <h2 >Mis habilidades</h2>
+                <p>Aquí puedes encontrar secciones sobre mis habilidades y algo más detallado para que sepas lo que se hacer.</p>
+            </div>
+            <div class="habilidades-lista">
+                <a href="#" class="habilidad transition-3ms text-center flex-columns-center">
+                    <ion-icon name="logo-javascript" class="js"></ion-icon>
+                    <p>Frontend</p>              
+                </a>
+                <a href="#" class="habilidad transition-3ms text-center flex-columns-center">
+                    <ion-icon name="server"></ion-icon>
+                    <p>Backend</p>              
+                </a>
+                <a href="#" class="habilidad transition-3ms text-center flex-columns-center">
+                    <ion-icon name="create"></ion-icon>
+                    <p>Branding</p>              
+                </a>
+                <a href="#" class="habilidad transition-3ms text-center flex-columns-center">
+                    <ion-icon name="logo-microsoft"></ion-icon>
+                    <p>Windows apps</p>              
+                </a>
+                <a href="#" class="habilidad transition-3ms text-center flex-columns-center">
+                    <ion-icon name="logo-android"></ion-icon>
+                    <p>Android apps</p>              
+                </a>
+                <a href="#" class="habilidad transition-3ms text-center flex-columns-center">
+                    <ion-icon name="logo-python"></ion-icon>
+                    <p>Python</p>
+                </a>
+            </div>
+        </section>
+        <section class="formulario padding-3">
+            <h2>Contacto</h2>
+            <form action="enviar.php" method="post" class="formulario-contacto">
+                <div class="campo">
+                    <label for="fname">Nombre</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Nombre">
+                </div>
+               
+                <div class="campo">
+                    <label for="lname">Apellido</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Apellido">
+                </div>
+                
+                <div class="campo">
+                    <label for="email">Email</label>
+                    <input type="text" id="email" name="email" placeholder="example@gmail.com">
+                </div>
+                
+                <div class="campo">
+                    <label for="subject">Mensaje</label>
+                    <textarea id="subject" name="subject" placeholder="Tu mensaje..." style="max-height:300px; max-width: 100%;"></textarea>
+                </div>
+                
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+        <footer class="padding-3">
+            <div class="menu-footer">
+                <div class="seccion-logo">
+                    <img src="./img/iconAlan.svg" alt="Logo Alan Velez">
+                    <p>Permíteme crear el proyecto de tus sueños.</p>
+                </div>
+                <div class="seccion-contacto">
+                    <h3 class="margin-0">Ubicación</h3>
+                    <p class="margin-0">Alan Fabian Oliva Velez</p>
+                    <p class="margin-0">Monterrey, México</p>
+                    <p class="margin-0 correo">alanfvelez@outlook.es</p>
+                </div>
+                <div class="servicios">
+                    <h3 class="margin-0">Explorar</h3>
+                    <a href="">Inicio</a>
+                    <a href="">Sobre mi</a>
+                    <a href="">Proyectos</a>
+                    <a href="">Contacto</a>
+                </div>
+                <div class="redes">
+                    <h3 class="margin-0">Redes sociales</h3>
+                    <a href="">Github</a>
+                    <a href="">Facebook</a>
+                    <a href="">Instagram</a>
+                    <a href="">Linkedin</a>
+                </div>
+            </div>
+            <hr>
+            <div class="copy-right">
+                <p class="text-center">&copy2022 Alan Velez. Todos los derechos reservados.</p>
+            </div>
+        </footer>
+    </div>           
+    <!-- Iconos -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
